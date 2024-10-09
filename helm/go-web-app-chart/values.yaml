@@ -1,0 +1,11 @@
+# Default values for go-web-app-chart.
+replicaCount: 1
+
+image:
+  repository: vijaysaw9211/goapp
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: ClusterIP
+  port: 80
