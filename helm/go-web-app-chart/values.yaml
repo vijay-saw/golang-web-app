@@ -4,7 +4,7 @@ replicaCount: 1
 image:
   repository: vijaysaw9211/myapp
   pullPolicy: IfNotPresent
-  tag: 30
+  tag: 31
 
 service:
   type: ClusterIP
