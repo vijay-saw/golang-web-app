@@ -2,9 +2,9 @@
 replicaCount: 1
 
 image:
-  repository: vijaysaw9211/goapp
+  repository: 
   pullPolicy: IfNotPresent
-  tag: "latest"
+  tag: 
 
 service:
   type: ClusterIP
